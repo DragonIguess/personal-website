@@ -1,6 +1,5 @@
 body {
     font-family: 'Times New Roman', Times, serif;
-    padding: 40px;
     background: rgb(129,1,1);
     background: radial-gradient(circle, rgba(129,1,1,1) 0%, rgba(171,33,64,1) 29%, rgba(189,82,105,1) 54%, rgba(44,44,44) 100%);
 }
@@ -8,11 +7,11 @@ body {
 h1 {
     padding-left:auto;
     padding-right:auto;
-    font-size:xx-large;
+    font: size 300px;
     font-weight:900;
 }
 
-.everything {
-    padding: 20%;
-    font-size:larger;
+.gamelist {
+    padding: 80%;
+    font: 100px;
 }
