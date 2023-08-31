@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snes</title>
+</head>
+<body>
+    <div style='width:100%;height:100vh;max-width:100%'>
+        <div id='game'></div>
+    </div>
+    
+    <script type='text/javascript'>
+        EJS_player = '#game';
+        
+        // Can also be snes9x
+        EJS_core = 'snes';
+        
+        //SNES mouse
+        EJS_mouse = false; 
+        
+        // SNES Multitap
+        EJS_multitap = false; 
+        
+        // URL to BIOS file
+        EJS_biosUrl = '';
+        
+        // URL to Game rom
+        EJS_gameUrl = '';
+        
+        // Path to the data directory
+        EJS_pathtodata = 'data/';
+    </script>
+    <script src='data/loader.js'></script>
+</body>
+</html>
